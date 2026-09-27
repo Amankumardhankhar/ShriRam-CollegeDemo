@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 480" role="img" aria-labelledby="t">
+  <title id="t">Illustration of the college hospital with a heartbeat line</title>
+  <style>
+    .ecg { stroke-dasharray: 900; stroke-dashoffset: 900; animation: draw 3.2s ease-in-out 0.4s infinite; }
+    .float { animation: bob 5s ease-in-out infinite; transform-origin: center; }
+    .float2 { animation: bob 6s ease-in-out 1s infinite; }
+    .float3 { animation: bob 7s ease-in-out 0.5s infinite; }
+    .glow { animation: glow 2.4s ease-in-out infinite; }
+    @keyframes draw { 0% { stroke-dashoffset: 900; } 55%, 80% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: -900; } }
+    @keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+    @keyframes glow { 0%, 100% { opacity: 0.55; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .ecg, .float, .float2, .float3, .glow { animation: none; stroke-dashoffset: 0; } }
+  </style>
+  <defs>
+    <linearGradient id="bldg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e3eef3"/></linearGradient>
+    <linearGradient id="wing" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f9fb"/><stop offset="1" stop-color="#d4e4eb"/></linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14a3a5"/><stop offset="1" stop-color="#0F8B8D"/></linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFC15E"/><stop offset="1" stop-color="#F29E1F"/></linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+  </defs>
+
+  <!-- backdrop -->
+  <circle cx="290" cy="235" r="215" fill="url(#halo)"/>
+  <circle cx="290" cy="235" r="170" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="2" stroke-dasharray="4 10"/>
+
+  <!-- ground -->
+  <ellipse cx="290" cy="402" rx="235" ry="22" fill="#061621" opacity="0.35"/>
+
+  <!-- trees -->
+  <g>
+    <rect x="86" y="330" width="6" height="62" rx="3" fill="#0b3b52"/>
+    <circle cx="89" cy="318" r="30" fill="#0F8B8D"/><circle cx="74" cy="336" r="20" fill="#0c7476"/>
+    <rect x="484" y="338" width="6" height="54" rx="3" fill="#0b3b52"/>
+    <circle cx="487" cy="328" r="26" fill="#0F8B8D"/><circle cx="502" cy="344" r="17" fill="#0c7476"/>
+  </g>
+
+  <!-- side wings -->
+  <rect x="118" y="250" width="110" height="146" rx="10" fill="url(#wing)"/>
+  <rect x="352" y="250" width="110" height="146" rx="10" fill="url(#wing)"/>
+  <g fill="#9cc7d6">
+    <rect x="134" y="270" width="22" height="18" rx="4"/><rect x="164" y="270" width="22" height="18" rx="4"/><rect x="194" y="270" width="22" height="18" rx="4"/>
+    <rect x="134" y="302" width="22" height="18" rx="4"/><rect x="164" y="302" width="22" height="18" rx="4"/><rect x="194" y="302" width="22" height="18" rx="4"/>
+    <rect x="134" y="334" width="22" height="18" rx="4"/><rect x="164" y="334" width="22" height="18" rx="4"/><rect x="194" y="334" width="22" height="18" rx="4"/>
+    <rect x="364" y="270" width="22" height="18" rx="4"/><rect x="394" y="270" width="22" height="18" rx="4"/><rect x="424" y="270" width="22" height="18" rx="4"/>
+    <rect x="364" y="302" width="22" height="18" rx="4"/><rect x="394" y="302" width="22" height="18" rx="4"/><rect x="424" y="302" width="22" height="18" rx="4"/>
+    <rect x="364" y="334" width="22" height="18" rx="4"/><rect x="394" y="334" width="22" height="18" rx="4"/><rect x="424" y="334" width="22" height="18" rx="4"/>
+  </g>
+
+  <!-- main block -->
+  <rect x="210" y="150" width="160" height="246" rx="12" fill="url(#bldg)"/>
+  <rect x="210" y="150" width="160" height="26" rx="12" fill="url(#teal)"/>
+  <rect x="210" y="164" width="160" height="12" fill="url(#teal)"/>
+  <g fill="#7fb6c9">
+    <rect x="228" y="196" width="26" height="22" rx="4"/><rect x="277" y="196" width="26" height="22" rx="4"/><rect x="326" y="196" width="26" height="22" rx="4"/>
+    <rect x="228" y="232" width="26" height="22" rx="4"/><rect x="277" y="232" width="26" height="22" rx="4"/><rect x="326" y="232" width="26" height="22" rx="4"/>
+    <rect x="228" y="268" width="26" height="22" rx="4"/><rect x="277" y="268" width="26" height="22" rx="4"/><rect x="326" y="268" width="26" height="22" rx="4"/>
+    <rect x="228" y="304" width="26" height="22" rx="4"/><rect x="326" y="304" width="26" height="22" rx="4"/>
+  </g>
+  <rect x="266" y="336" width="48" height="60" rx="6" fill="#0E4A6E"/>
+  <rect x="289" y="336" width="2" height="60" fill="#5fa0b8"/>
+  <rect x="254" y="326" width="72" height="10" rx="5" fill="#0F8B8D"/>
+
+  <!-- cross sign -->
+  <g class="float">
+    <circle cx="290" cy="112" r="34" fill="url(#sun)"/>
+    <circle cx="290" cy="112" r="42" fill="none" stroke="#F29E1F" stroke-opacity="0.45" stroke-width="3" class="glow"/>
+    <rect x="283" y="94" width="14" height="36" rx="3" fill="#ffffff"/>
+    <rect x="272" y="105" width="36" height="14" rx="3" fill="#ffffff"/>
+  </g>
+
+  <!-- heartbeat line -->
+  <path d="M40 430 H200 l14 -34 l18 62 l16 -56 l12 28 H330 l12 -22 l12 22 H520" fill="none" stroke="#F29E1F" stroke-opacity="0.3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path class="ecg" d="M40 430 H200 l14 -34 l18 62 l16 -56 l12 28 H330 l12 -22 l12 22 H520" fill="none" stroke="#F29E1F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- floating badges -->
+  <g class="float2">
+    <rect x="30" y="140" width="128" height="54" rx="14" fill="#ffffff"/>
+    <circle cx="58" cy="167" r="15" fill="#e6f5f5"/>
+    <path d="M51 167h4l2-5 4 10 2-5h4" fill="none" stroke="#0F8B8D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="82" y="156" width="60" height="8" rx="4" fill="#0E4A6E"/>
+    <rect x="82" y="170" width="42" height="7" rx="3.5" fill="#b9ccd6"/>
+  </g>
+  <g class="float3">
+    <rect x="420" y="120" width="116" height="54" rx="14" fill="#ffffff"/>
+    <circle cx="447" cy="147" r="15" fill="#fff3df"/>
+    <path d="M447 156s-8-5-8-11a4.4 4.4 0 0 1 8-2.6 4.4 4.4 0 0 1 8 2.6c0 6-8 11-8 11z" fill="#F29E1F"/>
+    <rect x="470" y="136" width="52" height="8" rx="4" fill="#0E4A6E"/>
+    <rect x="470" y="150" width="36" height="7" rx="3.5" fill="#b9ccd6"/>
+  </g>
+
+  <!-- sparkles / plus marks -->
+  <g stroke="#ffffff" stroke-opacity="0.55" stroke-width="3" stroke-linecap="round">
+    <path d="M178 70v16M170 78h16"/><path d="M420 60v12M414 66h12"/><path d="M506 236v12M500 242h12"/><path d="M60 250v12M54 256h12"/>
+  </g>
+</svg>

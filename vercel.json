@@ -1,0 +1,8 @@
+{
+  "buildCommand": "",
+  "installCommand": "",
+  "framework": null,
+  "outputDirectory": "static-site",
+  "cleanUrls": false,
+  "trailingSlash": true
+}

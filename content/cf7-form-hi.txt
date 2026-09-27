@@ -1,0 +1,16 @@
+<label> पूरा नाम (आवश्यक)
+    [text* your-name autocomplete:name] </label>
+
+<label> मोबाइल नंबर (आवश्यक)
+    [tel* your-phone autocomplete:tel] </label>
+
+<label> ईमेल
+    [email your-email autocomplete:email] </label>
+
+<label> किस पाठ्यक्रम में रुचि है
+    [select your-course include_blank "बी.एससी. नर्सिंग|B.Sc Nursing" "पोस्ट बेसिक बी.एससी. नर्सिंग|Post Basic B.Sc Nursing" "बी.एससी. पैरामेडिकल साइंस|B.Sc Paramedical Science" "जीएनएम|GNM" "एएनएम|ANM" "अन्य / सामान्य पूछताछ|Other / General enquiry"] </label>
+
+<label> आपका संदेश
+    [textarea your-message 40x4] </label>
+
+[submit "पूछताछ भेजें"]

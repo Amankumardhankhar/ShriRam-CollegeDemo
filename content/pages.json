@@ -1,0 +1,362 @@
+[
+  {
+    "key": "home",
+    "slug": "home",
+    "title": "Home",
+    "parent": null,
+    "template": null,
+    "order": 1,
+    "featured": null,
+    "lang": "en"
+  },
+  {
+    "key": "about",
+    "slug": "about",
+    "title": "About the College",
+    "parent": null,
+    "template": null,
+    "order": 2,
+    "featured": "main-gate",
+    "lang": "en"
+  },
+  {
+    "key": "courses",
+    "slug": "courses",
+    "title": "Courses",
+    "parent": null,
+    "template": null,
+    "order": 3,
+    "featured": "classroom-students",
+    "lang": "en"
+  },
+  {
+    "key": "bsc-nursing",
+    "slug": "bsc-nursing",
+    "title": "B.Sc Nursing",
+    "parent": "courses",
+    "template": null,
+    "order": 1,
+    "featured": "skill-practice",
+    "lang": "en"
+  },
+  {
+    "key": "post-basic-bsc-nursing",
+    "slug": "post-basic-bsc-nursing",
+    "title": "Post Basic B.Sc Nursing",
+    "parent": "courses",
+    "template": null,
+    "order": 2,
+    "featured": "hospital-ward-2",
+    "lang": "en"
+  },
+  {
+    "key": "bsc-paramedical-science",
+    "slug": "bsc-paramedical-science",
+    "title": "B.Sc Paramedical Science",
+    "parent": "courses",
+    "template": null,
+    "order": 3,
+    "featured": "lab-hall",
+    "lang": "en"
+  },
+  {
+    "key": "gnm",
+    "slug": "gnm",
+    "title": "GNM – General Nursing & Midwifery",
+    "parent": "courses",
+    "template": null,
+    "order": 4,
+    "featured": "nursing-foundation-lab",
+    "lang": "en"
+  },
+  {
+    "key": "anm",
+    "slug": "anm",
+    "title": "ANM – Auxiliary Nurse Midwifery",
+    "parent": "courses",
+    "template": null,
+    "order": 5,
+    "featured": "maternity-room",
+    "lang": "en"
+  },
+  {
+    "key": "admissions",
+    "slug": "admissions",
+    "title": "Admissions",
+    "parent": null,
+    "template": null,
+    "order": 4,
+    "featured": "students-batch",
+    "lang": "en"
+  },
+  {
+    "key": "fee-structure",
+    "slug": "fee-structure",
+    "title": "Fee Structure",
+    "parent": null,
+    "template": null,
+    "order": 5,
+    "featured": "campus-building",
+    "lang": "en"
+  },
+  {
+    "key": "approvals",
+    "slug": "approvals",
+    "title": "Approvals & Affiliations",
+    "parent": null,
+    "template": null,
+    "order": 6,
+    "featured": "main-gate-2018",
+    "lang": "en"
+  },
+  {
+    "key": "hospital",
+    "slug": "hospital",
+    "title": "Hospital",
+    "parent": null,
+    "template": null,
+    "order": 7,
+    "featured": "hospital-building",
+    "lang": "en"
+  },
+  {
+    "key": "campus-facilities",
+    "slug": "campus-facilities",
+    "title": "Campus & Facilities",
+    "parent": null,
+    "template": null,
+    "order": 8,
+    "featured": "campus-wide",
+    "lang": "en"
+  },
+  {
+    "key": "faculty",
+    "slug": "faculty",
+    "title": "Faculty",
+    "parent": null,
+    "template": null,
+    "order": 9,
+    "featured": "classroom",
+    "lang": "en"
+  },
+  {
+    "key": "gallery",
+    "slug": "gallery",
+    "title": "Gallery",
+    "parent": null,
+    "template": null,
+    "order": 10,
+    "featured": "students-lawn",
+    "lang": "en"
+  },
+  {
+    "key": "contact",
+    "slug": "contact",
+    "title": "Contact Us",
+    "parent": null,
+    "template": null,
+    "order": 11,
+    "featured": "campus-evening",
+    "lang": "en"
+  },
+  {
+    "key": "mandatory-disclosure",
+    "slug": "mandatory-disclosure",
+    "title": "Mandatory Disclosure",
+    "parent": null,
+    "template": null,
+    "order": 12,
+    "featured": "corridor",
+    "lang": "en"
+  },
+  {
+    "key": "notices",
+    "slug": "notices",
+    "title": "Notices",
+    "parent": null,
+    "template": null,
+    "order": 13,
+    "featured": null,
+    "lang": "en"
+  },
+  {
+    "key": "hi/home",
+    "slug": "hi",
+    "title": "होम",
+    "parent": null,
+    "template": "page-no-title",
+    "order": 1,
+    "featured": null,
+    "lang": "hi"
+  },
+  {
+    "key": "hi/about",
+    "slug": "about",
+    "title": "कॉलेज के बारे में",
+    "parent": "hi/home",
+    "template": null,
+    "order": 2,
+    "featured": "main-gate",
+    "lang": "hi"
+  },
+  {
+    "key": "hi/courses",
+    "slug": "courses",
+    "title": "पाठ्यक्रम",
+    "parent": "hi/home",
+    "template": null,
+    "order": 3,
+    "featured": "classroom-students",
+    "lang": "hi"
+  },
+  {
+    "key": "hi/bsc-nursing",
+    "slug": "bsc-nursing",
+    "title": "बी.एससी. नर्सिंग",
+    "parent": "hi/courses",
+    "template": null,
+    "order": 1,
+    "featured": "skill-practice",
+    "lang": "hi"
+  },
+  {
+    "key": "hi/post-basic-bsc-nursing",
+    "slug": "post-basic-bsc-nursing",
+    "title": "पोस्ट बेसिक बी.एससी. नर्सिंग",
+    "parent": "hi/courses",
+    "template": null,
+    "order": 2,
+    "featured": "hospital-ward-2",
+    "lang": "hi"
+  },
+  {
+    "key": "hi/bsc-paramedical-science",
+    "slug": "bsc-paramedical-science",
+    "title": "बी.एससी. पैरामेडिकल साइंस",
+    "parent": "hi/courses",
+    "template": null,
+    "order": 3,
+    "featured": "lab-hall",
+    "lang": "hi"
+  },
+  {
+    "key": "hi/gnm",
+    "slug": "gnm",
+    "title": "जीएनएम – जनरल नर्सिंग एवं मिडवाइफरी",
+    "parent": "hi/courses",
+    "template": null,
+    "order": 4,
+    "featured": "nursing-foundation-lab",
+    "lang": "hi"
+  },
+  {
+    "key": "hi/anm",
+    "slug": "anm",
+    "title": "एएनएम – ऑक्ज़िलरी नर्स मिडवाइफरी",
+    "parent": "hi/courses",
+    "template": null,
+    "order": 5,
+    "featured": "maternity-room",
+    "lang": "hi"
+  },
+  {
+    "key": "hi/admissions",
+    "slug": "admissions",
+    "title": "प्रवेश",
+    "parent": "hi/home",
+    "template": null,
+    "order": 4,
+    "featured": "students-batch",
+    "lang": "hi"
+  },
+  {
+    "key": "hi/fee-structure",
+    "slug": "fee-structure",
+    "title": "शुल्क संरचना",
+    "parent": "hi/home",
+    "template": null,
+    "order": 5,
+    "featured": "campus-building",
+    "lang": "hi"
+  },
+  {
+    "key": "hi/approvals",
+    "slug": "approvals",
+    "title": "मान्यता एवं संबद्धता",
+    "parent": "hi/home",
+    "template": null,
+    "order": 6,
+    "featured": "main-gate-2018",
+    "lang": "hi"
+  },
+  {
+    "key": "hi/hospital",
+    "slug": "hospital",
+    "title": "अस्पताल",
+    "parent": "hi/home",
+    "template": null,
+    "order": 7,
+    "featured": "hospital-building",
+    "lang": "hi"
+  },
+  {
+    "key": "hi/campus-facilities",
+    "slug": "campus-facilities",
+    "title": "परिसर एवं सुविधाएँ",
+    "parent": "hi/home",
+    "template": null,
+    "order": 8,
+    "featured": "campus-wide",
+    "lang": "hi"
+  },
+  {
+    "key": "hi/faculty",
+    "slug": "faculty",
+    "title": "संकाय",
+    "parent": "hi/home",
+    "template": null,
+    "order": 9,
+    "featured": "classroom",
+    "lang": "hi"
+  },
+  {
+    "key": "hi/gallery",
+    "slug": "gallery",
+    "title": "गैलरी",
+    "parent": "hi/home",
+    "template": null,
+    "order": 10,
+    "featured": "students-lawn",
+    "lang": "hi"
+  },
+  {
+    "key": "hi/contact",
+    "slug": "contact",
+    "title": "संपर्क करें",
+    "parent": "hi/home",
+    "template": null,
+    "order": 11,
+    "featured": "campus-evening",
+    "lang": "hi"
+  },
+  {
+    "key": "hi/mandatory-disclosure",
+    "slug": "mandatory-disclosure",
+    "title": "अनिवार्य प्रकटीकरण",
+    "parent": "hi/home",
+    "template": null,
+    "order": 12,
+    "featured": "corridor",
+    "lang": "hi"
+  },
+  {
+    "key": "hi/notices",
+    "slug": "notices",
+    "title": "सूचनाएँ",
+    "parent": "hi/home",
+    "template": null,
+    "order": 13,
+    "featured": null,
+    "lang": "hi"
+  }
+]

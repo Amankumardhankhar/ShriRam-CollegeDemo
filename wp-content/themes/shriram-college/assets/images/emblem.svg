@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="t">
+  <title id="t">Shri Ram College emblem (placeholder until the official logo is supplied)</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F8B8D"/>
+      <stop offset="1" stop-color="#0E4A6E"/>
+    </linearGradient>
+  </defs>
+  <path d="M60 6 106 22v34c0 29-19.5 50-46 58C33.5 106 14 85 14 56V22Z" fill="url(#g)"/>
+  <path d="M60 14 98 27.5V56c0 24.5-16 42.5-38 49.5C38 98.5 22 80.5 22 56V27.5Z" fill="none" stroke="#F29E1F" stroke-width="2.5"/>
+  <!-- Nightingale lamp: symbol of nursing -->
+  <path d="M40 74h40c0 6-4.5 9-10 9H50c-5.5 0-10-3-10-9Z" fill="#fff"/>
+  <path d="M44 74c0-9 7-15 16-15s16 6 16 15" fill="#fff"/>
+  <path d="M76 66c6 0 10 2.5 10 6s-3 5-7 5" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M60 36c5 6 7 10 7 14a7 7 0 0 1-14 0c0-4 2-8 7-14Z" fill="#F29E1F"/>
+  <path d="M60 44c2.2 3 3 4.8 3 6.4a3 3 0 0 1-6 0c0-1.6.8-3.4 3-6.4Z" fill="#FFE2A8"/>
+</svg>

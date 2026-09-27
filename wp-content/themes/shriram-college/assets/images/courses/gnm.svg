@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" role="img" aria-hidden="true"><title>GNM - General Nursing and Midwifery</title><style>
+.float{animation:fl 4.5s ease-in-out infinite}
+.float2{animation:fl 5.5s ease-in-out .8s infinite}
+@keyframes fl{50%{transform:translateY(-9px)}}
+.pulse{animation:pu 1.4s ease-in-out infinite;transform-origin:center;transform-box:fill-box}
+@keyframes pu{0%,100%{transform:scale(1)}14%{transform:scale(1.14)}28%{transform:scale(1)}42%{transform:scale(1.08)}}
+.tw{animation:tw 2.6s ease-in-out infinite}.tw2{animation:tw 2.6s ease-in-out 1.3s infinite}
+@keyframes tw{50%{opacity:.15}}
+.draw{stroke-dasharray:520;stroke-dashoffset:520;animation:dr 2.8s linear infinite}
+@keyframes dr{0%{stroke-dashoffset:520}65%,100%{stroke-dashoffset:0}}
+.rise{animation:ri 3.2s ease-in infinite;opacity:0}.d1{animation-delay:.8s}.d2{animation-delay:1.6s}.d3{animation-delay:2.4s}
+@keyframes ri{0%{transform:translateY(0);opacity:0}20%{opacity:1}100%{transform:translateY(-80px);opacity:0}}
+.spin{animation:sp 18s linear infinite;transform-origin:200px 125px}
+@keyframes sp{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;stroke-dashoffset:0!important;opacity:1}}
+</style><circle cx="200" cy="125" r="96" fill="#fff" opacity=".10"/>
+<circle class="spin" cx="200" cy="125" r="112" fill="none" stroke="#fff" stroke-opacity=".28" stroke-width="2" stroke-dasharray="3 11"/><path class="tw" d="M70 53v14M63 60h14" stroke="#fff" stroke-width="3" stroke-linecap="round"/><path class="tw2" d="M338 45v14M331 52h14" stroke="#fff" stroke-width="3" stroke-linecap="round"/><path class="tw" d="M350 183v14M343 190h14" stroke="#fff" stroke-width="3" stroke-linecap="round"/><path class="tw2" d="M52 181v10M47 186h10" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+<g class="float2" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+<path d="M150 40v46a42 42 0 0 0 84 0V40"/><path d="M192 128v18c0 44 70 52 86 8"/></g>
+<g class="float2"><circle cx="150" cy="36" r="8" fill="#0B1F2E"/><circle cx="234" cy="36" r="8" fill="#0B1F2E"/>
+<circle cx="282" cy="140" r="26" fill="#fff"/><circle cx="282" cy="140" r="14" fill="#0B1F2E"/></g>
+<g transform="translate(84 128) scale(1.35)"><g class="pulse"><path d="M0 12C0-2 20-7 27 7 34-7 54-2 54 12 54 31 27 46 27 46S0 31 0 12Z" fill="#fff"/><path d="M27 12v18M18 21h18" stroke="#F29E1F" stroke-width="5" stroke-linecap="round"/></g></g>
+<path class="draw" d="M60 222h60l8-16 10 30 10-24 6 10h40" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg>

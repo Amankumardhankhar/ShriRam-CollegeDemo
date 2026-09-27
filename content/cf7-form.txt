@@ -1,0 +1,16 @@
+<label> Full name (required)
+    [text* your-name autocomplete:name] </label>
+
+<label> Mobile number (required)
+    [tel* your-phone autocomplete:tel] </label>
+
+<label> Email
+    [email your-email autocomplete:email] </label>
+
+<label> Course of interest
+    [select your-course include_blank "B.Sc Nursing" "Post Basic B.Sc Nursing" "B.Sc Paramedical Science" "GNM" "ANM" "Other / General enquiry"] </label>
+
+<label> Your message
+    [textarea your-message 40x4] </label>
+
+[submit "Send Enquiry"]

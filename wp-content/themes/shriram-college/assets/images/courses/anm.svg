@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" role="img" aria-hidden="true"><title>ANM - Auxiliary Nurse Midwifery</title><style>
+.float{animation:fl 4.5s ease-in-out infinite}
+.float2{animation:fl 5.5s ease-in-out .8s infinite}
+@keyframes fl{50%{transform:translateY(-9px)}}
+.pulse{animation:pu 1.4s ease-in-out infinite;transform-origin:center;transform-box:fill-box}
+@keyframes pu{0%,100%{transform:scale(1)}14%{transform:scale(1.14)}28%{transform:scale(1)}42%{transform:scale(1.08)}}
+.tw{animation:tw 2.6s ease-in-out infinite}.tw2{animation:tw 2.6s ease-in-out 1.3s infinite}
+@keyframes tw{50%{opacity:.15}}
+.draw{stroke-dasharray:520;stroke-dashoffset:520;animation:dr 2.8s linear infinite}
+@keyframes dr{0%{stroke-dashoffset:520}65%,100%{stroke-dashoffset:0}}
+.rise{animation:ri 3.2s ease-in infinite;opacity:0}.d1{animation-delay:.8s}.d2{animation-delay:1.6s}.d3{animation-delay:2.4s}
+@keyframes ri{0%{transform:translateY(0);opacity:0}20%{opacity:1}100%{transform:translateY(-80px);opacity:0}}
+.spin{animation:sp 18s linear infinite;transform-origin:200px 125px}
+@keyframes sp{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;stroke-dashoffset:0!important;opacity:1}}
+</style><circle cx="200" cy="125" r="96" fill="#fff" opacity=".10"/>
+<circle class="spin" cx="200" cy="125" r="112" fill="none" stroke="#fff" stroke-opacity=".28" stroke-width="2" stroke-dasharray="3 11"/><path class="tw" d="M70 53v14M63 60h14" stroke="#fff" stroke-width="3" stroke-linecap="round"/><path class="tw2" d="M338 45v14M331 52h14" stroke="#fff" stroke-width="3" stroke-linecap="round"/><path class="tw" d="M350 183v14M343 190h14" stroke="#fff" stroke-width="3" stroke-linecap="round"/><path class="tw2" d="M52 181v10M47 186h10" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+<path d="M112 146c0 44 40 64 88 64s88-20 88-64" fill="none" stroke="#fff" stroke-width="16" stroke-linecap="round"/>
+<path d="M112 146c-4-14-2-26 6-32M288 146c4-14 2-26-6-32" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round"/>
+<g transform="translate(154 78) scale(1.7)"><g class="pulse"><path d="M0 12C0-2 20-7 27 7 34-7 54-2 54 12 54 31 27 46 27 46S0 31 0 12Z" fill="#fff"/><path d="M27 13v16M19 21h16" stroke="#0E4A6E" stroke-width="4.5" stroke-linecap="round"/></g></g>
+<g transform="translate(96 150) scale(.45)"><path class="rise" d="M0 12C0-2 20-7 27 7 34-7 54-2 54 12 54 31 27 46 27 46S0 31 0 12Z" fill="#fff"/></g>
+<g transform="translate(284 146) scale(.38)"><path class="rise d2" d="M0 12C0-2 20-7 27 7 34-7 54-2 54 12 54 31 27 46 27 46S0 31 0 12Z" fill="#0B1F2E"/></g>
+<g transform="translate(250 176) scale(.3)"><path class="rise d1" d="M0 12C0-2 20-7 27 7 34-7 54-2 54 12 54 31 27 46 27 46S0 31 0 12Z" fill="#fff"/></g></svg>
